@@ -1,0 +1,13 @@
+.404-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.404-menu {
+  width: 100px;
+  height: 1024px;
+  background: #E20AC6;
+  -webkit-filter: blur(13px);
+          filter: blur(13px);
+}

@@ -8,6 +8,7 @@
 .about-wrapp {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
     max-width: 1440px;
     margin: 0 auto;
 
@@ -80,6 +81,7 @@
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #E20AC6;
+    margin-bottom: 15px;
 }
 
 
@@ -92,6 +94,7 @@
     width: 95%;
     margin: 0 auto;
     border: 2px solid red;
+    margin-top: 35px;
 
 }
 
@@ -109,16 +112,54 @@
 
         position: absolute;
         left: -22%;
-        top: 5%;
-        opacity: 0.6;
+        top: 10%;
+        opacity: 0.4;
     }
 }
 
-
 .statistic-box__right {
-    width: 843px;
-    height: 225px;
-
+    width: 1400px;
+    height: 230px;
     background: #F7F7F7;
-    border-radius: 16px;
+    border-radius: 15px;
 }
+
+
+
+.box__right--title {
+    font-family: Forte_VR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #506381;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.statistic-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+
+}
+
+.statistic-info__column {}
+
+.statistic-info__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .statistic-image {
+        margin-right: 25px;
+    }
+}
+
+.statistic-image {}
+
+.statistic-info__text {}

@@ -89,21 +89,12 @@
         color: red;
     }
 
-
-
-
-
 }
 
-
-
-
 .print-cards {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 15px;
-    background-color: #F7F7F7;
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
     margin-left: 20px;
 }
 
