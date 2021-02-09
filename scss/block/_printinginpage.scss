@@ -1,0 +1,119 @@
+.printing-industry {
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+
+.printing-industry__container {
+    max-width: 1720px;
+    margin: 0 auto;
+
+}
+
+.about-page__title {}
+
+.printing-about {
+    padding-left: 140px;
+    width: 90%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+
+.printing-industry__wrapp {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 1720px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+
+}
+
+
+.print-nav {
+    display: flex;
+    background-color: #F7F7F7;
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+
+.print-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.print-nav ul li {
+    list-style: none;
+    width: 275px;
+    height: 40px;
+    border: 2px solid white;
+}
+
+
+
+
+.print-nav ul li a {
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 11px 11px 11px 11px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+
+
+    background: #919191;
+    transition: 0.3s ease;
+
+    &:hover {
+        color: white;
+        background-color: black;
+        box-shadow: 4px 5px 32px 4px #6a6a6a;
+
+    }
+
+    .print-nav ul li.active {
+        display: block;
+        background: #AE4A84;
+        color: red;
+    }
+
+
+
+
+
+}
+
+
+
+
+.print-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+    background-color: #F7F7F7;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+.print-card {
+    display: flex;
+}
+
+
+
+.information {
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+.highlight-title__box {
+
+    max-width: 1720px;
+    width: 95%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 5px 10px 5px rgba(20, 20, 20, 0.5);
+
+
+
+
+}
+
+.highlight-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: black;
+
+    span {
+        color: #E20AC6;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+.highlight-btn {
+    display: flex;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #E20AC6;
+
+    border: 1px solid #E20AC6;
+    border-radius: 5px;
+    padding: 8px 26px;
+    transition: .2s ease-in-out;
+
+
+    .icon-star {
+        margin-right: 10px;
+        fill: #E20AC6;
+    }
+
+    &:hover {
+        color: white;
+        box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.3);
+        background-color: #E20AC6;
+        border: 1px solid #E20AC6;
+
+        .icon-star {
+            margin-right: 10px;
+            fill: white;
+        }
+
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+}

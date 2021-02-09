@@ -1,0 +1,124 @@
+.about {
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.about-wrapp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1440px;
+    margin: 0 auto;
+
+    padding: 20px;
+
+}
+
+.about-box {
+    display: flex;
+    align-items: center;
+
+}
+
+.about-icon {
+    margin-right: 17px;
+}
+
+.about-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.045em;
+    color: #000000;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about-title {
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #F7F7F7;
+    padding: 10px 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 1px 5px 10px 5px rgba(20, 20, 20, 0.5);
+    color: #000000;
+}
+
+.about-info__block {
+    margin-top: 35px;
+
+}
+
+.about-info__block--title {
+    font-family: Bertram Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #E20AC6;
+}
+
+
+
+.statistic-wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1720px;
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid red;
+
+}
+
+.statistic-box__left {
+    position: relative;
+    width: 225px;
+    height: 225px;
+    background: linear-gradient(132.9deg, #495A76 1.3%, #F13ADF 98.06%), linear-gradient(143.36deg, #AE4A84 3.66%, #506381 103.19%);
+    border-radius: 15px;
+    margin-right: 45px;
+
+    .statistic-image {
+        width: 200px;
+        height: 182px;
+
+        position: absolute;
+        left: -22%;
+        top: 5%;
+        opacity: 0.6;
+    }
+}
+
+
+.statistic-box__right {
+    width: 843px;
+    height: 225px;
+
+    background: #F7F7F7;
+    border-radius: 16px;
+}

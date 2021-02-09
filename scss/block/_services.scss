@@ -1,0 +1,140 @@
+.services-wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1720px;
+    height: 204px;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    box-shadow: 1px 5px 10px 5px rgba(20, 20, 20, 0.5);
+}
+
+.services-description__tile {
+    font-family: Bertram Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #E20AC6;
+}
+
+.services-description__text {
+    margin-top: 15px;
+    width: 568px;
+    height: 86px;
+    font-family: Forte_VR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.055em;
+
+    color: #495A76;
+}
+
+
+
+
+.services-btn {
+    font-family: Bertram Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 13px 17px;
+
+    background: #E20AC6;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+
+
+
+
+/* =======checkbox =========*/
+
+.services-check {
+    display: flex;
+}
+
+.services-check__left {
+    margin-right: 90px;
+}
+
+
+
+.checkbox {
+    display: block;
+    cursor: pointer;
+}
+
+.checkbox+.checkbox {
+    margin-top: 15px;
+}
+
+.checkbox__real {
+    display: none;
+}
+
+.checkbox__fake {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid #777777;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+.checkbox__real:checked+.checkbox__fake {
+
+    border: 1px solid#E20AC6;
+}
+
+
+.checkbox__real:checked+.checkbox__fake::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    //display: block;
+    content: "";
+    border-radius: 2px;
+    width: 18px;
+    height: 18px;
+    background-image: url('../../img/svg/checke.svg');
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+    transform: translate(-50%, -50%);
+}
+
+
+.checkbox__title {
+    font-family: Forte_VR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #495A76;
+
+}
+
+.checkbox__real:checked~.checkbox__title {}

@@ -1,0 +1,50 @@
+.footer {
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.footer-link {
+    list-style: none;
+    color: grey;
+    margin-top: 15px;
+
+    &:hover {
+        color: white;
+    }
+
+}
+
+
+.contacts-title {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 25px;
+    color: white;
+
+    span {
+        color: #E20AC6;
+    }
+}
+
+
+
+
+.popular-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    color: grey;
+}
+
+.property {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 15px;
+}
