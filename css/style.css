@@ -2076,7 +2076,7 @@ button:focus {
           flex-direction: column;
   position: relative;
   width: 100px;
-  height: auto;
+  height: 100vh;
   background: #E20AC6;
   z-index: 2;
 }
