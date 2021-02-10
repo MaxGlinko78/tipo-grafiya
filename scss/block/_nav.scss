@@ -225,7 +225,27 @@
 }
 
 .m-menu-box {
-    display: none;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: -500px;
+    top: 40px;
+    width: 300px;
+    height: auto;
+    background-color: #495A76;
+
+    transition: .5s ease-in-out;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 10px;
+    text-transform: none;
+
 
 }
 
@@ -242,6 +262,5 @@
 }
 
 .m-menu-box__active {
-    display: block;
-    transition: .8s ease-in-out;
+    right: 0px;
 }
