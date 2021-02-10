@@ -2067,8 +2067,9 @@ button:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -2078,6 +2079,10 @@ button:focus {
   height: auto;
   background: #E20AC6;
   z-index: 2;
+}
+
+.icon-logo {
+  margin-top: 20px;
 }
 
 .empty-menu-btn {
@@ -2146,6 +2151,7 @@ button:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .empty-socials .socials__icon + .socials__icon {
@@ -2154,6 +2160,7 @@ button:focus {
 }
 
 .empty-body {
+  margin-left: 50px;
   width: 1290px;
   height: 1024px;
   background: #FFFFFF;

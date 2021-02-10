@@ -9,7 +9,7 @@
 .empty-menu__box {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     position: relative;
     width: 100px;
@@ -19,6 +19,9 @@
     z-index: 2;
 }
 
+.icon-logo {
+    margin-top: 20px;
+}
 
 
 .empty-menu-btn {
@@ -82,6 +85,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
 
     .socials__icon+.socials__icon {
         margin: 0;
@@ -94,10 +98,10 @@
 
 
 .empty-body {
+    margin-left: 50px;
     width: 1290px;
     height: 1024px;
     background: #FFFFFF;
-
 
 }
 
