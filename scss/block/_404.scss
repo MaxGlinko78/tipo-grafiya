@@ -66,18 +66,18 @@
 }
 
 
-.menu-btn__active span {
+.empty-btn__active span {
     height: 0;
     transition: .5s ease-in-out;
     top: 20%;
 
 }
 
-.menu-btn__active span::before {
+.empty-btn__active span::before {
     transform: rotate(45deg);
 }
 
-.menu-btn__active span::after {
+.empty-btn__active span::after {
     transform: rotate(-45deg);
 }
 
@@ -130,10 +130,16 @@
     transition: .5s ease-in-out;
 
     .empty-link {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        letter-spacing: 0.1em;
+        line-height: 19px;
         color: #ffffff;
 
         &:hover {
-            opacity: 0.8;
+            opacity: 0.6;
             text-decoration: none;
         }
     }

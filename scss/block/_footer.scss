@@ -9,14 +9,17 @@
     padding-top: 100px;
 }
 
-.footer-link {
+.footer-link a {
     list-style: none;
     color: grey;
     margin-top: 15px;
 
     &:hover {
         color: white;
+        text-decoration: none;
     }
+
+
 
 }
 
@@ -40,6 +43,7 @@
     flex-wrap: wrap;
     width: 300px;
     color: grey;
+    list-style: none;
 }
 
 .property {
