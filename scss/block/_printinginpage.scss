@@ -108,3 +108,20 @@
 .information {
     text-align: center;
 }
+
+
+
+.table-price {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 15px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+
+.table-price__item {
+    padding: 15px;
+    border: 2px solid red;
+    //background-color: #AE4A84;
+
+}
