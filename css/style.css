@@ -2161,6 +2161,7 @@ button:focus {
 
 .empty-body {
   margin-left: 50px;
+  padding-top: 15px;
   width: 1290px;
   height: 1024px;
   background: #FFFFFF;
@@ -2275,6 +2276,18 @@ button:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.empty-footer__title {
+  font-family: Forte_VR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #495A76;
+  margin: 40px 0;
 }
 
 .palte-item {
