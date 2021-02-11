@@ -43,7 +43,6 @@ footer {
   width: 95%;
   height: auto;
   margin: 0 auto;
-  border: 2px solid tomato;
 }
 
 section {
@@ -56,7 +55,6 @@ section {
   width: 95%;
   height: auto;
   margin: 0 auto;
-  border: 2px solid limegreen;
 }
 
 h3.section-title {
@@ -89,10 +87,6 @@ h3.section-title {
   background-color: transparent;
   border: none;
   border-radius: none;
-}
-
-.cards__wrapp {
-  border: 2px solid blue;
 }
 
 @font-face {
@@ -2489,7 +2483,6 @@ button:focus {
   }
 }
 
-/*Тут заменен хедер в 23:55*/
 @media screen and (max-width: 736px) {
   header,
   main,
