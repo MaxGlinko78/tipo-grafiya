@@ -87,6 +87,18 @@
 
     }
 
+    .box__fourth--left img {
+        width: 92%;
+    }
+
+    .box__fourth--right {
+        margin-right: 10%;
+    }
+
+    .box__fourth--wrapp {
+        margin-left: 13%;
+    }
+
     .top-menu>ul li a {
         padding: 5px 5px;
     }
@@ -153,14 +165,34 @@
         margin-right: 10px;
     }
 
+
+    .box__fourth--wrapp {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
     .slide__wrapp--right__title {
-        font-size: 22px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 5px;
     }
 
     .swiper-slide__box__fourth {
         justify-content: flex-start;
         margin-left: 6%;
+    }
+
+    .slider-fourth__btn-box {
+        margin-top: 10px;
+    }
+
+
+    .box__fourth--left img {
+        width: 70%;
+    }
+
+
+    .slider-fourth__btn-box .fouth-slider-title {
+        font-size: 22px;
     }
 
     .services-check__left {
@@ -223,7 +255,6 @@
         font-size: 15px;
     }
 
-
 }
 
 @media screen and (max-width: 991px) {
@@ -257,8 +288,8 @@
     }
 
     .swiper-container {
-        height: 300px;
-        width: 768px;
+        height: 250px;
+        width: 760px;
     }
 
     .slider-image {
@@ -303,22 +334,54 @@
         width: 85%;
     }
 
+    .box__fourth--wrapp {
+        margin-top: 5px;
+    }
+
+    .slider-title__fourth {
+        position: static;
+        margin-top: 0px;
+        margin-left: 13%;
+    }
+
+    .box__fourth--left img {
+        width: 70%;
+    }
+
     .slide__wrapp--right__title {
-        font-size: 25px;
+        font-size: 16px;
+        line-height: 18px;
     }
 
     .slide__wrapp--right__sutitle {
-        font-size: 18px;
+        margin-top: 14px;
+        font-size: 15px;
     }
 
     .slider-fourth__btn-box .fouth-slider-title {
-        font-size: 26px;
-        line-height: 3em;
+        font-size: 15px;
     }
 
-    .slider-fourth__btn-box .slider__btn {
-        padding: 10px 10px;
-    }
+    // .swiper-slide__box__fourth {
+    //     margin-left: 0;
+    // }
+
+    // .slide__wrapp--right__title {
+    //     font-size: 25px;
+    // }
+
+    // .slide__wrapp--right__sutitle {
+    //     font-size: 18px;
+    // }
+
+    // .slider-fourth__btn-box .fouth-slider-title {
+    //     font-size: 26px;
+    //     line-height: 3em;
+    // }
+
+    // .slider-fourth__btn-box .slider__btn {
+    //     padding: 10px 10px;
+    // }
 
     .services-description__tile {
         font-size: 18px;
@@ -458,19 +521,20 @@
 
     .swiper-container {
         height: 245px;
+        width: 726px;
     }
 
     .slider-title__second {
-        font-size: 36px;
-        line-height: 20px;
+        font-size: 30px;
+        line-height: 30px;
     }
 
     .schema {
-        font-size: 20px !important;
+        font-size: 19px !important;
     }
 
     .slider-subtitle__second {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .slide__wrapp--left {
@@ -486,38 +550,29 @@
 
     }
 
-    .swiper-slide__fourth {
-        height: max-content;
-    }
-
     .swiper-slide__box__fourth {
-        margin-top: 55px;
-        padding-bottom: 15px;
+        margin-left: 0%;
     }
 
-    .slide__wrapp--right__title {
-        font-size: 20px;
-        line-height: 20px;
+    .slide__wrapp--right img {
+        width: 75%;
     }
 
-    .slide__wrapp img {
-        width: 70%;
+    .swiper-slide__box {
+        margin-top: 20px;
+        margin-left: 35px;
     }
 
-    .slide__wrapp--right__sutitle {
-        margin-top: 15px;
-        font-size: 15px;
+
+
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+        right: 32px;
     }
 
     .slider-fourth__btn-box .fouth-slider-title {
-        font-size: 17px;
-        line-height: 1.5em;
-    }
-
-    .slider-fourth__btn-box .slider__btn {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 10px;
+        font-weight: 600;
+        line-height: 20px;
     }
 
     article {
@@ -631,6 +686,7 @@
 
 }
 
+/*Тут заменен хедер в 23:55*/
 @media screen and (max-width: 736px) {
 
     header,
@@ -642,9 +698,6 @@
         width: 95%;
     }
 
-    .header {
-        background: lightpink;
-    }
 
     .container {
         min-width: 380px;
@@ -717,6 +770,11 @@
         width: 80%;
     }
 
+    .swiper-slide__box {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
     .slider-title__second {
         font-size: 18px;
         line-height: 20px;
@@ -740,11 +798,11 @@
 
     .swiper-button-next {
         right: 0;
-        top: 37%;
+        top: 50%;
     }
 
     .swiper-button-prev {
-        top: 37%;
+        top: 50%;
         left: 0;
     }
 
@@ -775,12 +833,62 @@
 
     .swiper-slide__box__fourth {
         padding: 10px;
-        margin-top: 30px;
+        margin-top: -13px;
+    }
 
+    .box__fourth--left img {
+        width: 85%;
+    }
+
+    .box__fourth--wrapp {
+        margin-left: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 667px) {
+    .m-menu {
+        width: 632px;
+    }
+
+    .cards__wrapp {
+        padding-left: 10px;
+    }
+
+    .statistic-box__left {
+        width: 200px;
+        height: 155px;
+    }
+
+    .statistic-box__right {
+        height: 155px;
     }
 
 
+    .statistic-box__left .statistic-image {
+        height: 126px;
+        top: 15%;
+    }
+
+    .statistic-info__text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .slider-text {
+        width: 305px;
+    }
+
+    .slider-name {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 20px;
+
+    }
+
 }
+
 
 @media screen and (max-width: 576px) {
 
@@ -841,7 +949,7 @@
     .slider-image {
         top: 17%;
         left: 10%;
-        max-width: 51%;
+        max-width: 80%;
     }
 
     .slider-subtitle {
@@ -851,11 +959,11 @@
     }
 
     .slide__wrapp--left {
-        width: 328px;
+        width: 500px;
     }
 
     .slide__wrapp--right img {
-        width: 45%;
+        width: 90%;
     }
 
     .slider-title__second {
@@ -870,4 +978,10 @@
     .slider-subtitle__second {
         font-size: 14px;
     }
+
+    .swiper-button-next {
+        right: 5px;
+    }
+
+
 }
