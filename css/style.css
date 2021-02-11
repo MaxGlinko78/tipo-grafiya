@@ -2473,6 +2473,9 @@ button:focus {
     min-width: 480px;
     width: 95%;
   }
+  header {
+    background: lightpink;
+  }
   .container {
     min-width: 380px;
   }
