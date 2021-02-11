@@ -159,6 +159,7 @@
     width: 30px;
     height: 30px;
     display: none;
+
 }
 
 
@@ -226,11 +227,11 @@
 
 .m-menu-box {
 
-    display: flex;
+    display: none;
     align-items: center;
     flex-direction: column;
     position: absolute;
-    right: -500px;
+    right: 0px;
     top: 40px;
     width: 300px;
     height: auto;
@@ -245,6 +246,7 @@
     line-height: 16px;
     padding: 10px;
     text-transform: none;
+
 
 
 }
@@ -262,6 +264,6 @@
 }
 
 .m-menu-box__active {
-    right: 0px;
+    display: flex;
     z-index: 5;
 }
