@@ -2473,7 +2473,7 @@ button:focus {
     min-width: 480px;
     width: 95%;
   }
-  header {
+  .header {
     background: lightpink;
   }
   .container {
