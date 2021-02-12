@@ -1617,6 +1617,85 @@ a.card {
   color: #506381;
 }
 
+.about-qr {
+  max-width: 568px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(73, 90, 118, 0.97)), to(rgba(174, 74, 132, 0.64)));
+  background: linear-gradient(90deg, rgba(73, 90, 118, 0.97) 0%, rgba(174, 74, 132, 0.64) 100%);
+}
+
+.about-qr__box--right {
+  margin-left: 50px;
+}
+
+.about-qr__box--right__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.about-qr__box--right__sutitle {
+  margin-top: 20px;
+  width: 292px;
+  height: 56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.about-qr__btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-box-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.btn-box__btn {
+  background: #495A76;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 15px;
+}
+
 .partners-images__wrapp {
   max-width: 1440px;
   width: 95%;
@@ -2306,6 +2385,9 @@ button:focus {
   .card-subtitle {
     width: 180px;
   }
+  .bottom-slider {
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -2379,6 +2461,9 @@ button:focus {
   .swiper-slide__box {
     margin-top: 20px;
     margin-left: 35px;
+  }
+  .bottom-slider {
+    overflow: hidden;
   }
   .swiper-button-next,
   .swiper-container-rtl .swiper-button-prev {
@@ -2561,6 +2646,9 @@ button:focus {
   .slider-title .span-title {
     font-size: 30px;
   }
+  .bottom-slider {
+    overflow: hidden;
+  }
   .slider-title span {
     font-size: 20px;
   }
@@ -2634,6 +2722,9 @@ button:focus {
     font-size: 20px;
     line-height: 20px;
   }
+  .bottom-slider {
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -2643,6 +2734,7 @@ button:focus {
   section,
   footer {
     min-width: 480px;
+    width: 95%;
   }
   .container {
     min-width: 380px;
@@ -2671,43 +2763,264 @@ button:focus {
   .m-menu {
     width: 576px;
   }
-  .swiper-container {
-    height: 210px;
-    width: 550px;
+  .slider {
+    display: none;
   }
-  .slider-title {
-    top: -3%;
-    left: 6%;
-    font-size: 20px;
+  .about-qr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .slider-image {
-    top: 17%;
-    left: 10%;
-    max-width: 80%;
+  article {
+    width: 150px;
+    height: 200px;
+    margin-right: 5px;
   }
-  .slider-subtitle {
-    bottom: 6%;
-    left: 22%;
-    font-size: 30px;
+  .cards__wrapp {
+    padding-left: 50px;
   }
-  .slide__wrapp--left {
-    width: 500px;
+  .card-title {
+    font-size: 15px;
+    padding-top: 10px;
   }
-  .slide__wrapp--right img {
-    width: 90%;
+  .card-image {
+    width: 125px;
   }
-  .slider-title__second {
-    font-size: 20px;
+  .card-subtitle {
+    font-size: 10px;
+    width: 125px;
+  }
+  .services-wrapp {
+    max-width: 576px;
+    height: 165px;
+  }
+  .products {
+    margin: 0;
+  }
+  .about {
+    margin: 0;
+  }
+  .about-wrapp {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .statistic-box__left {
+    display: none;
+    height: 125px;
+  }
+  .statistic-box__left .statistic-image {
+    height: 100px;
+    top: 15%;
+  }
+  .about-qr__box--left {
+    width: 115px;
+  }
+  .about-qr__box--right {
+    margin-left: 20px;
+  }
+  .about-qr__box--right__sutitle {
+    margin-top: 5px;
+    width: 230px;
+    height: 50px;
+    font-size: 12px;
     line-height: 20px;
   }
-  .schema {
-    font-size: 11px !important;
+  .btn-box__btn {
+    padding: 5px 10px;
   }
-  .slider-subtitle__second {
+  .btn-box-title {
+    font-size: 16px;
+  }
+  .bottom-slider {
+    overflow: hidden;
+  }
+  .slider-box {
+    width: 150px;
+  }
+  .slider-box img {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  header,
+  main,
+  nav,
+  section,
+  footer {
+    min-width: 480px;
+    width: 95%;
+  }
+  .container {
+    min-width: 380px;
+  }
+  .header-contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact {
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+  h3.section-title {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .card-title {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .about-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-info__block--title {
+    margin-left: 25%;
+  }
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    width: 50%;
+    padding-top: 30px;
+  }
+  .m-menu {
+    width: 470px;
+  }
+  .card-image {
+    width: 85px;
+  }
+  article {
+    width: 110px;
+    height: 110px;
+    margin-right: 5px;
+  }
+  .card-title {
+    font-size: 10px;
+    line-height: 0px;
+  }
+  .card-subtitle {
+    display: none;
+  }
+  .services-description__tile {
+    text-align: center;
+    width: 480px;
+    font-size: 17px;
+    border: 2px solid red;
+  }
+  .services-btn {
+    padding: 5px 5px;
+    margin-right: 27px;
+    font-size: 12px;
+  }
+  .services-description__text {
+    padding-left: 15px;
+  }
+  .about-qr__box--left {
+    width: 100px;
+  }
+  .slider-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .slider-box img {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
+    margin-left: 75%;
+    margin-bottom: 20px;
+  }
+  .slider-name {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .slider-content {
+    height: 500px;
+  }
+  .slider-text {
+    width: 330px;
     font-size: 14px;
+    line-height: 17px;
   }
-  .swiper-button-next {
-    right: 5px;
+  .header-contacts__btn {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .icons-box {
+    width: 80%;
+  }
+  .header-socials {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    padding-top: 15px;
+    height: 100%;
+  }
+  .card-title {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .card-image {
+    width: 60px;
+  }
+  .about-wrapp {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  h3.section-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .printing-about {
+    padding-left: 50px;
+  }
+  .print-nav ul li a {
+    font-size: 10px;
+  }
+  .print-nav ul li {
+    list-style: none;
+    width: 210px;
+    height: 37px;
+  }
+  .tabs-triggers__item {
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+  .tabs-content__item {
+    width: 270px;
+    padding: 10px;
+  }
+  .card-sample article .card-title {
+    font-size: 6px;
+  }
+  .table-price {
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+  .empty-footer__title {
+    text-align: left;
+    font-size: 25px;
+    line-height: 34px;
   }
 }
 
