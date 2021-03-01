@@ -21,7 +21,8 @@
         font-family: 'Forte_VR';
         src: url('../../fonts/ForteVR.woff2') format('woff2'),
             url('../../fonts/ForteVR.woff') format('woff'),
-            url('../../fonts/ForteVR.ttf') format('truetype');
+            url('../../fonts/ForteVR.otf') format('otf'),
+            url('../../fonts/ForteVR.ttf') format('ttf');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -31,7 +32,8 @@
         font-family: 'Bertram Std';
         src: url('BertramStd.woff2') format('woff2'),
             url('../../fonts/BertramStd.woff') format('woff'),
-            url('../../fonts/BertramStd.ttf') format('truetype');
+            url('../../fonts/BertramStd.otf') format('otf'),
+            url('../../fonts/BertramStd.ttf') format('ttf');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
