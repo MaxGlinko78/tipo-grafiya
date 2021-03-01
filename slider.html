@@ -1,0 +1,61 @@
+<section class="section-slider">
+	<div class="slider">
+
+		<div class="swiper-container">
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+
+				<?php
+				global $post;
+
+				$query = new WP_Query([
+					'posts_per_page' => 5,
+					'post_type'        => 'top-slider',
+				]);
+
+				if ($query->have_posts()) {
+					while ($query->have_posts()) {
+						$query->the_post();
+				?>
+				<!-- Slides -->
+
+				<div class="swiper-slide swiper-slide__first ">
+
+					<div class="slider-title"><?php the_field('first_word'); ?><span class="span-title">
+							<?php the_field('second_word'); ?></span> <?php the_field('third_word'); ?>
+					</div>
+					<div class="img-box"><?php the_post_thumbnail() ?>
+						<?php the_content(); ?></div>
+
+					<img src="img/slider-image-1.png" alt="" class="slider-image">
+					<div class="slider-subtitle"><span><?php the_field('first_subtitle'); ?></span>
+						<?php the_field('second_subtitle'); ?></div>
+				</div>
+				<!-- Slide -->
+				<?php
+					}
+				} else {
+					// Постов не найдено
+				}
+
+				wp_reset_postdata(); // Сбрасываем $post
+				?>
+
+				<!-- Slides -->
+
+
+			</div>
+			<!-- If we need pagination 
+                <div class="swiper-pagination"></div>-->
+
+			<!-- If we need navigation buttons -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+			<!-- If we need scrollbar -->
+			<div class="swiper-scrollbar"></div>
+		</div>
+	</div>
+
+
+</section>

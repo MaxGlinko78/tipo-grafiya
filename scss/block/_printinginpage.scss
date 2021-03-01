@@ -38,10 +38,13 @@
 
 
 .print-nav {
+
     display: flex;
-    background-color: #F7F7F7;
     align-self: flex-start;
+    flex-direction: column;
     margin-bottom: 30px;
+    background-color: #F7F7F7;
+
 }
 
 .print-nav ul {

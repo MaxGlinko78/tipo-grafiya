@@ -19,61 +19,22 @@
 
 }
 
-.tabs-triggers__item--active {
-  background-color: #eee;
-}
-
-.tabs-content {}
-
 .tabs-content__item {
   width: 1400px;
   height: auto;
   padding: 20px;
   display: none;
   background-color: #eee;
+  padding: 5px;
+}
+
+.tabs-triggers__item--active {
+  background-color: #eee;
 }
 
 .tabs-content__item--active {
   display: block;
 }
-
-.card-sample {
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-.card-sample article {
-  background-color: white;
-  flex-basis: 17%;
-
-  .card-title {
-    font-size: 18px;
-
-  }
-
-  .card-subtitle {
-    //margin-top: 20px;
-    padding-bottom: 15px;
-  }
-
-  .card-price {
-    font-family: Montserrat;
-    font-size: 14px;
-    text-decoration: none;
-    text-align: center;
-    color: #3B5998;
-  }
-
-  .card-image {
-    margin-top: 0px;
-
-  }
-
-}
-
-
-
 
 .desicion {
   font-family: Montserrat;
@@ -87,4 +48,102 @@
   font-size: 14px;
   padding: 0 35px;
   margin-bottom: 15px;
+}
+
+td {
+  border: 2px solid red;
+}
+
+
+
+/*Examples */
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+
+}
+
+.cards-wrapper .box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px;
+  background: gray;
+}
+
+.cards-wrapper .box .imgBox {
+  position: relative;
+  overflow: hidden;
+
+  span {
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.045em;
+    color: #eee;
+  }
+}
+
+.cards-wrapper .box .imgBox img {
+  max-width: 100%;
+  transition: .2s ease-in-out;
+}
+
+.cards-wrapper .box:hover .imgBox img {
+  transform: scale(1.2);
+}
+
+.cards-wrapper .box .details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  transform: scaleY(0);
+  transition: .5s ease-in-out;
+}
+
+.cards-wrapper .box:hover .details {
+  transform: scaleY(1);
+}
+
+.cards-wrapper .box .details .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  h4 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    //padding-top: 5px;
+    text-align: center;
+    color: #3B5998;
+
+  }
+
+  p {
+    padding: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.045em;
+    color: #eee;
+
+  }
+
+
 }
