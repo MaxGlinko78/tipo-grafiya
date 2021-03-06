@@ -1,0 +1,61 @@
+/* ========== Стили для Одинокого поста ==========*/
+.single-post {
+
+    border: 2px solid orange;
+}
+
+
+td {
+    width: 100px;
+    height: 30px;
+
+    border: 2px solid;
+}
+
+
+.single-post_wrapp {
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid tomato;
+}
+
+.single-post_description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .description-image {
+        width: 400px;
+    }
+
+    .description-text {
+        width: 600px;
+    }
+
+
+
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.single-post_info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    .info-rules {
+        width: 600px;
+    }
+
+    .info-price {
+        width: 600px;
+    }
+}
+
+/* ========== Стили для Одинокого поста ==========*/
