@@ -1,0 +1,51 @@
+.privilege {
+    min-width: 1920px;
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid orange;
+}
+
+.privilege-wrapper,
+.privilege-box {
+    display: flex;
+    justify-content: space-around;
+    min-width: 1720px;
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid tomato;
+
+}
+
+.privilege__content {}
+
+.privilege__title {}
+
+.privilege__footer {}
+
+.privilege-box {
+    margin-bottom: 40px;
+}
+
+.privilege-box__item {
+    display: flex;
+}
+
+.item-wrapp {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+
+
+.wrapp--item__title {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.box__item__subtitle {
+    margin-left: 20px;
+    opacity: 0.8;
+}

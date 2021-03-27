@@ -1,0 +1,54 @@
+/*========== Concacts =========*/
+
+
+.contacts-page {
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.contacts-page__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    height: 700px;
+    border: 2px solid orange;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.contact-box {
+    background-color: #AE4A84;
+    width: 600px;
+    height: 400px;
+    border: 2px solid olivedrab;
+    padding: 20px;
+
+    color: white;
+
+    h4 {
+        padding: 20px;
+        font-weight: 600;
+        text-align: center;
+        ;
+    }
+
+    span {
+        font-weight: 700;
+        margin-right: 10px;
+    }
+
+    .contact-btn {
+        color: white;
+        padding: 20px 40px;
+        border: 2px solid white;
+    }
+
+
+}
+
+.contact-map {
+    width: 600px;
+    height: 400px;
+    background-color: orange;
+}
