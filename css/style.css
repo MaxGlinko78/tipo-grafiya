@@ -1545,11 +1545,21 @@ a.card {
 .form-box input {
   margin-right: 10px;
   border-radius: 10px;
+  outline: none;
 }
 
-.form-box .btn {
+.form-box .footer-btn {
   text-align: center;
-  width: 30%;
+  color: white;
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: transparent;
+  letter-spacing: 2px;
+}
+
+.form-box .footer-btn:hover {
+  background: #AE4A84;
 }
 
 .footer-confidential {
