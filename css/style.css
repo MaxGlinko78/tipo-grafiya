@@ -1514,8 +1514,17 @@ a.card {
 }
 
 .footer {
+  position: relative;
   color: white;
   background-color: #323f55;
+}
+
+.footer-logo {
+  position: absolute;
+  left: 35px;
+  top: 30px;
+  width: 200px;
+  background-color: white;
 }
 
 .footer-wrapp {
@@ -1563,7 +1572,13 @@ a.card {
 }
 
 .footer-confidential {
+  display: flex;
+  align-items: baseline;
   margin-top: 30px;
+}
+
+.footer-confidential .footer-confidential__checkbox {
+  margin-right: 15px;
 }
 
 .footer-contacts {
